@@ -17,3 +17,4 @@ const {add , multiply} = require('./calculate/calculate-module')
 // multiply(10,10)
 console.log(add(10,10));
 console.log(multiply(10,10));
+ (function () { console.log(2 + 3) })();
